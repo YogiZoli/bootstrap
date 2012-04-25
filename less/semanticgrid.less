@@ -1,0 +1,10 @@
+.col (@col) {
+#gridSystem > .gridColumn(@gridGutterWidth);
+#grid > .columns(@gridGutterWidth, @gridColumnWidth, @gridRowWidth, @col);
+}
+
+.fluidcol  (@fluidcol) {
+#grid > .gridColumn(@fluidGridGutterWidth);
+#gridSystem > .columns(@fluidGridGutterWidth, @fluidGridColumnWidth, @fluidGridRowWidth, 
+@fluidcol);
+}
